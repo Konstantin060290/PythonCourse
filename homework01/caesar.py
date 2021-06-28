@@ -112,6 +112,9 @@ def caesar_breaker_brute_force(ciphertext: str, dictionary: tp.Set[str]) -> int:
     best_shift = 0
     # PUT YOUR CODE HERE
     dictionary = {"Python3.6", "SBWKRQ"}
-    if ciphertext == dictionary[0]:
-        best_shift = 0
+
+    # Пока не закончил
+
+    # if ciphertext == dictionary[0]:
+    #     best_shift = 0
     return best_shift
